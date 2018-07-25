@@ -1,0 +1,13 @@
+.service-icon{
+	width: 20%;
+}
+.intro-icon{
+	width: 100px;
+}
+img{
+	font-size: 10px;
+}
+
+.thumb-link img{
+	border: 1px solid black;
+}
