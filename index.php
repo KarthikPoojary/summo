@@ -18,7 +18,21 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <!--================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+<!--=====================================================-->
+<!--Contact US 
+	=====================================================-->
+	
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--=====================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--=====================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--=====================================================-->
 
     <!-- script
     ================================================== -->
@@ -29,6 +43,10 @@
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Custom CSS
+        ============================================= -->
+    <link rel="stylesheet" href="css/custom.css">
 
 </head>
 
@@ -632,8 +650,8 @@
                 </p>
             </div> <!-- end contact-secondary -->
 
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Follow Us</h3>
+            <div class="col-seven tab-full contact-secondary" data-aos="fade-up">
+                <!-- <h3 class="subhead subhead--light">Follow Us</h3>
 
                 <ul class="contact-social">
                     <li>
@@ -646,13 +664,53 @@
                         <a href="#0"><i class="fab fa-linkedin"></i></a>
                     </li>
                 </ul> <!-- end contact-social -->
-
-                <div class="contact-subscribe">
-                    <form id="mc-form" class="group mc-form" novalidate="true">
+ 
+                <div class="contact-subscribe" id="contactus">
+                    <!-- <form id="mc-form" class="group mc-form" novalidate="true">
                         <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
                         <input type="submit" name="subscribe" value="Subscribe">
                         <label for="mc-email" class="subscribe-message"></label>
-                    </form>
+                    </form> -->
+                    <div class="bg-contact2">
+						<div class="container-contact2">
+							<div class="wrap-contact2">
+								<form class="contact2-form validate-form" method="post" action="send_form_email.php">
+									<h3 class="subhead subhead--light contacthead">Contact Us</h3>
+                                    <div class="wrap-input2 validate-input" data-validate="Name is required">
+										<input class="input2" style="background-color: white; color: red" type="text" name="name">
+										<span class="focus-input2" data-placeholder="NAME"></span>
+									</div>
+
+									<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+										<input class="input2" style="background-color: white; color: red" type="text" name="email">
+										<span class="focus-input2" data-placeholder="EMAIL"></span>
+									</div>
+
+									<div class="wrap-input2 validate-input" data-validate = "Message is required">
+										<textarea class="input2" style="background-color: white; color: red" name="message"></textarea>
+										<span class="focus-input2" data-placeholder="MESSAGE"></span>
+									</div>
+
+									<div class="container-contact2-form-btn">
+										<div class="wrap-contact2-form-btn">
+											<div class="contact2-form-bgbtn"></div>
+											<button class="contact2-form-btn">
+												Send Your Message
+											</button>
+										</div>
+										<div class="success"  data= "" style="margin-top: 20px;  color: #cb147e; font-size: 20px; border-radius: 5px;">
+										<?php
+										// session_start();
+										if(isset($_REQUEST['success']) == true){
+											echo "Thank you for contacting us. We will be in touch with you very soon.";
+											// header("location:/");
+										}?>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
                 </div> <!-- end contact-subscribe -->
             </div> <!-- end contact-secondary -->
 
@@ -726,6 +784,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
 
 </body>
 
