@@ -58,7 +58,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.php">
-                <img src="images/logo/Summologo_New.jpg" alt="Homepage">
+                <img src="images/logo/summo_logo.svg" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
 
