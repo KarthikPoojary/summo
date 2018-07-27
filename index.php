@@ -57,8 +57,8 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo/summo_logo.svg" alt="Homepage">
+            <a class="site-logo" href="index.php">
+                <img src="images/logo/Summologo_New.jpg" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
 
