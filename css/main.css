@@ -1336,6 +1336,7 @@ input::-moz-focus-inner {
 }
 .header-logo a {
   display: block;
+  width: 40%;
   padding: 0;
   outline: 0;
   border: none;

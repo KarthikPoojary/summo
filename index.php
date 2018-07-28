@@ -57,8 +57,8 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.php">
-                <img src="images/logo/summo_logo.svg" alt="Homepage">
+            <a class="site-logo js-tilt">
+                <img class="logo" data-tilt src="images/logo/summo_logo_new.svg" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
 
@@ -104,7 +104,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/banner.jpeg" data-natural-width=3000 data-natural-height=2000 data-position="-280px">
 
         <div class="shadow-overlay"></div>
 
@@ -790,6 +790,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.js-tilt').tilt({
+            scale: 1.1,
+            speed: 300,
+        })
+    </script>
 
 </body>
 
