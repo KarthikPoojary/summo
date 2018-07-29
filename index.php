@@ -78,7 +78,7 @@
                 </ul>
     
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href='#0'> Lorem </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-    
+                    
                 <ul class="header-nav__social">
                     <li>
                         <a href="#0"><i class="fab fa-facebook"></i></a>
