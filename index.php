@@ -62,6 +62,7 @@
             </a>
         </div> <!-- end header-logo -->
 
+        
         <nav class="header-nav">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
@@ -105,11 +106,25 @@
     <!-- home
     ================================================== -->
     <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/banner.jpeg" data-natural-width=3000 data-natural-height=2000 data-position="-280px">
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
+    
+    <div class="shadow-overlay"></div>
+    
+    
+    
+    <div class="home-content">
+        <div class="success"  style="padding-top: 20px; position: absolute;z-index: 999;left:30%;">
+            <?php
+            // session_start();
+            if(isset($_REQUEST['success']) == true){
+                // echo "Thank you for contacting us. We will be in touch with you very soon.";
+                echo '<div class="alert-box alert-box--success hideit">
+                        <p>Thank you for contacting us. We will be in touch with you very soon..</p>
+                        <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                    </div>';
+                // header("location:/");
+            }?>
+        </div>
+        
             <div class="row home-content__main">
                 <h1>
                 Hello folks, we are <br>
@@ -697,14 +712,6 @@
 											<button class="contact2-form-btn">
 												Send Your Message
 											</button>
-										</div>
-										<div class="success"  data= "" style="margin-top: 20px;  color: #cb147e; font-size: 20px; border-radius: 5px;">
-										<?php
-										// session_start();
-										if(isset($_REQUEST['success']) == true){
-											echo "Thank you for contacting us. We will be in touch with you very soon.";
-											// header("location:/");
-										}?>
 										</div>
 									</div>
 								</form>
