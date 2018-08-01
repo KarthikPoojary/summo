@@ -105,7 +105,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/banner.jpeg" data-natural-width=3000 data-natural-height=2000 data-position="-280px">
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/banner.jpeg" data-natural-width=3000 data-natural-height=2000 data-position="">
     
     <div class="shadow-overlay"></div>
     
