@@ -1,3 +1,33 @@
+
+.success{
+	padding-top: 20px; 
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	left:30%;
+	right: 30%;
+}
+
+@media (max-width: 576px) {
+	.success {
+		left:10%;
+		right: 10%;
+	}
+	.success p{
+		font-size: 10px;
+	}
+  }
+
+.wrap-input2 input{
+	background-color: white; 
+	color: red;
+}
+
+.wrap-input2 textarea{
+	background-color: white; 
+	color: red;
+}
+
 .service-icon{
 	width: 20%;
 }
@@ -28,10 +58,3 @@ img{
 	border-top: 1px solid rgba(255, 255, 255, 0.05);
 	position: relative;
 }
-
-/* .success{
-	z-index: 503;
-	left:50%;
-	position: absolute;
-	padding-top: 1000px;
-} */

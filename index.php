@@ -112,13 +112,13 @@
     
     
     <div class="home-content">
-        <div class="success"  style="padding-top: 20px; position: absolute;z-index: 999;left:30%;">
+        <div class="success">
             <?php
             // session_start();
             if(isset($_REQUEST['success']) == true){
                 // echo "Thank you for contacting us. We will be in touch with you very soon.";
                 echo '<div class="alert-box alert-box--success hideit">
-                        <p>Thank you for contacting us. We will be in touch with you very soon..</p>
+                        <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
                         <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
                     </div>';
                 // header("location:/");
@@ -692,17 +692,17 @@
 								<form class="contact2-form validate-form" method="post" action="send_form_email.php">
 									<h3 class="subhead subhead--light contacthead">Contact Us</h3>
                                     <div class="wrap-input2 validate-input" data-validate="Name is required">
-										<input class="input2" style="background-color: white; color: red" type="text" name="name">
+										<input class="input2 input288" type="text" name="name">
 										<span class="focus-input2" data-placeholder="NAME"></span>
 									</div>
 
 									<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-										<input class="input2" style="background-color: white; color: red" type="text" name="email">
+										<input class="input2" type="text" name="email">
 										<span class="focus-input2" data-placeholder="EMAIL"></span>
 									</div>
 
 									<div class="wrap-input2 validate-input" data-validate = "Message is required">
-										<textarea class="input2" style="background-color: white; color: red" name="message"></textarea>
+										<textarea class="input2" name="message"></textarea>
 										<span class="focus-input2" data-placeholder="MESSAGE"></span>
 									</div>
 
