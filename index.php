@@ -78,7 +78,7 @@
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href='#0'> Lorem </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href='#0'> Lorem </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> -->
                     
                 <ul class="header-nav__social">
                     <li>
@@ -142,6 +142,7 @@
         <ul class="home-sidelinks">
             <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
             <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
+            <li><a class="smoothscroll" href="#works">Work<span>our work</span></a></li>
             <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
         </ul> <!-- end home-sidelinks -->
 
@@ -176,7 +177,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">We are a group ...</h1>
+                <!-- <h1 class="display-1">We are a group ...</h1> -->
             </div>
         </div> <!-- end section-header -->
 
@@ -197,7 +198,7 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row">
+        <!-- <div class="row">
                 
             <div class="about-process process block-1-2 block-tab-full">
 
@@ -241,9 +242,9 @@
                     </div>
                 </div>
 
-            </div> <!-- end process -->
+            </div>  end process -->
 
-        </div> <!-- end about-stats -->
+        <!-- </div> end about-stats -->
 
     </section> <!-- end s-about -->
 
@@ -255,22 +256,22 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">What We Do</h3>
-                <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
+                <!-- <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1> -->
             </div>
         </div> <!-- end section-header -->
 
         <div class="row" data-aos="fade-up">
             <div class="col-full">
-                <p class="lead">
+                <!-- <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-                </p>
+                </p> -->
             </div>
         </div> <!-- end about-desc -->
 
         <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
 
             <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon service-icon--brand-identity">
+                <div class="service-icon">
                     <!-- <i class="icon-tv"></i> -->
                     <img src="images/services/Media_Management.png" alt="Media Management">
                 </div>
@@ -282,7 +283,7 @@
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--illustration">
+                <div class="service-icon">
                     <!-- <i class="icon-group"></i> -->
                     <img src="images/services/Outofhome_Icon.png" alt="Out of Home ">
                 </div>
@@ -294,7 +295,7 @@
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
+                <div class="service-icon">
                     <!-- <i class="icon-earth"></i> -->
                     <img src="images/services/Ambientmedia_Icon.png" alt="Ambient  Media">
                 </div>  
@@ -306,7 +307,7 @@
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--product-strategy">
+                <div class="service-icon">
                     <!-- <i class="icon-cube"></i> -->
                     <img src="images/services/Digitalmarketing_Icon.png" alt="Digital Marketing">
                 </div>
@@ -318,7 +319,7 @@
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--ui-design">
+                <div class="service-icon">
                     <!-- <i class="icon-window"></i> -->
                     <img src="images/services/Experiential_Marketing.png" alt="Experiential Marketing">
                 </div>
@@ -330,7 +331,7 @@
             </div>
     
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--mobile-dev">
+                <div class="service-icon">
                     <!-- <i class="icon-lego-block"></i> -->
                     <img src="images/services/Retail_Management_Icon.png" alt="Retail Management">
                 </div>
@@ -342,7 +343,7 @@
             </div>
     
             <div class="col-block service-item" data-aos="fade-up" data-aos-delay="0">
-                <div class="service-icon service-icon--mobile-dev">
+                <div class="service-icon">
                     <!-- <i class="icon-lego-block"></i> -->
                     <img src="images/services/Printprodution_Icon.png" alt="Print Production ">
                 </div>
@@ -364,8 +365,8 @@
                 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Featured Works</h3>
-                <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
+                <h3 class="subhead">Our Works</h3>
+                <h1 class="display-1">These are some of our recent campaigns and we are excited to show them to you</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -552,7 +553,7 @@
             </div> <!-- end masonry -->
         </div> <!-- end masonry-wrap -->
 
-        <div class="testimonials-wrap" data-aos="fade-up">
+        <!-- <div class="testimonials-wrap" data-aos="fade-up">
 
             <div class="row">
                 <div class="col-full testimonials-header">
@@ -572,7 +573,7 @@
                             Tim Cook
                             <span>CEO, Apple</span>
                         </div>
-                    </div> <!-- end testimonials__slide -->
+                    </div> <!-- end testimonials__slide 
 
                     <div class="testimonials__slide">
                         <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
@@ -582,7 +583,7 @@
                             Sundar Pichai
                             <span>CEO, Google</span>
                         </div>
-                    </div> <!-- end testimonials__slide -->
+                    </div> <!-- end testimonials__slide 
 
                     <div class="testimonials__slide">
                         <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
@@ -592,20 +593,20 @@
                             Satya Nadella
                             <span>CEO, Microsoft</span>
                         </div>
-                    </div> <!-- end testimonials__slide -->
+                    </div> <!-- end testimonials__slide 
                     
-                </div> <!-- end testimonials__slider -->
+                </div> <!-- end testimonials__slider 
 
-            </div> <!-- end testimonials -->
+            </div> <!-- end testimonials 
 
-        </div> <!-- end testimonials-wrap -->
+        </div> end testimonials-wrap -->
 
     </section> <!-- end s-works -->
 
 
     <!-- stats
     ================================================== -->
-    <section id="stats" class="s-stats">
+    <!-- <section id="stats" class="s-stats">
 
         <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
@@ -626,9 +627,9 @@
                 <h5>Happy Clients</h5> 
             </div>
 
-        </div> <!-- end stats -->
+        </div> end stats 
 
-    </section> <!-- end s-stats -->
+    </section> end s-stats -->
 
 
     <!-- contact
@@ -638,7 +639,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
+                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater brand visibility.</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -646,8 +647,8 @@
 
             <div class="col-full contact-main" data-aos="fade-up">
                 <p>
-                <a href="mailto:#0" class="contact-email">info@summobrandcom.com</a>
-                <span class="contact-number">+91 998 872 9999  /  +91 998 872 9999</span>
+                <a href="mailto:enquiry@summobrand.com" class="contact-email">enquiry@summobrand.com</a>
+                <span class="contact-number"><span class="subhead subhead--light">Tel:</span> <a href="tel:02266627445" class="contact-cust"> 022 - 6662 7445</a> <br> <span class="subhead subhead--light"> Mob: </span> <a href="tel:+917045263131" class="contact-cust">+91 70452 63131</a></span>
                 </p>
             </div> <!-- end contact-main -->
 
@@ -659,9 +660,9 @@
                 <h3 class="subhead subhead--light">Where To Find Us</h3>
 
                 <p class="contact-address">
-                    Address Line 1<br>
-                    Address Line 2<br>
-                    Address Line 3
+                Summo Brandcom<br>
+                No.5, A2, Shah & Nahar Industrial Estate,<br>
+                Lower Parel, Mumbai – 400 013.
                 </p>
             </div> <!-- end contact-secondary -->
 
