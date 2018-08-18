@@ -895,7 +895,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script type="text/javascript">
     $(function() {
         $('.slide').slide({
-            'slideSpeed': 3000,
+            'slideSpeed': 5000,
             'isHoverStop': true,
             'isShowArrow': false,
             'dotsEvent': 'mouseenter',
