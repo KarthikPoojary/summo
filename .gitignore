@@ -1,7 +1,9 @@
 readme.txt
-transcend.zip
 Resources/
 old/
 shopping_list/
 contact_for_test/
 styles.html
+*.zip
+Background-Carousel-jQuery-Slider/
+Background-Slideshow-Lazy-Load-jQuery-Slide/

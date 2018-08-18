@@ -48,6 +48,10 @@
         ============================================= -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <!-- Background Slideshow -->
+    <link rel="stylesheet" href="css/jquery.slide.css">
+
+
 </head>
 
 <body id="top">
@@ -125,19 +129,19 @@
             }?>
         </div>
         
-            <div class="row home-content__main">
-                <h1>
-                Hello folks, we are <br>
-                Summo Brandcom.
-                </h1>
+        <div class="row home-content__main">
+            <h1>
+            Hello folks, we are <br>
+            Summo Brandcom.
+            </h1>
 
-                <p>
-                We create stunning digital experiences <br>
-                that will help your business stand out.
-                </p>
-            </div> <!-- end home-content__main -->
+            <p>
+            We create stunning digital experiences <br>
+            that will help your business stand out.
+            </p>
+        </div> <!-- end home-content__main -->
 
-        </div> <!-- end home-content -->
+    </div> <!-- end home-content -->
 
         <ul class="home-sidelinks">
             <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
@@ -169,7 +173,100 @@
 
     </section> <!-- end s-home -->
 
+    <section>
+        <div class="slide">
+            <ul>
+                <li data-bg="images/banner/Image-1.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="success">
+                                    <?php
+                                    // session_start();
+                                    if(isset($_REQUEST['success']) == true){
+                                        // echo "Thank you for contacting us. We will be in touch with you very soon.";
+                                        echo '<div class="alert-box alert-box--success hideit">
+                                                <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
+                                                <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                                            </div>';
+                                        // header("location:/");
+                                    }?>
+                                </div>
+                                
+                                <div class="row home-content__main">
+                                    <h1>
+                                    Hello folks, we are <br>
+                                    Summo Brandcom.
+                                    </h1>
 
+                                    <p>
+                                    We create stunning digital experiences <br>
+                                    that will help your business stand out.
+                                    </p>
+                                </div> <!-- end home-content__main -->
+
+                            </div> 
+                        </div>
+                    </div>
+                </li>
+                <!-- <li data-bg="images/banner/Image-2.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="row home-content__main">
+                                    <h1>
+                                    Slide 2 Title
+                                    </h1>
+
+                                    <p>
+                                    Slide 2 Description
+                                    </p>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </li>
+                <li data-bg="images/banner/Image-3.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="row home-content__main">
+                                    <h1>
+                                    Slide 3 Title
+                                    </h1>
+
+                                    <p>
+                                    Slide 3 Description
+                                    </p>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </li>
+                <li data-bg="images/banner/Image-4.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="row home-content__main">
+                                    <h1>
+                                    Slide 4 Title
+                                    </h1>
+
+                                    <p>
+                                    Slide 4 Description
+                                    </p>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </li> -->
+            </ul><!-- end home-content__main -->        
+        </div>
+    </section>
     <!-- about
     ================================================== -->
     <section id='about' class="s-about">
@@ -805,6 +902,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             speed: 300,
         })
     </script>
+
+<!-- Background Slideshow -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous">
+</script>
+<script src="js/jquery.slide.js"></script>
+<script type="text/javascript">
+      $(function() {
+        $('.slide').slide({
+          'slideSpeed': 3000,
+          'isShowArrow': true,
+          'dotsEvent': 'mouseenter',
+          'isLoadAllImgs': true
+        });
+      });
+    </script>
+
 
 </body>
 
