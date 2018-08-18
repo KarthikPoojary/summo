@@ -99,6 +99,19 @@ img{
 }
 
 .shadow {
-	margin-left: -3.5px;
+	margin-left: -4.5px;
 	width: 100vw;
+	height: 100vh;
+}
+
+.home-scroll{
+	z-index: 3;
+}
+
+.home-social{
+	z-index: 3;
+}
+
+.home-sidelinks{
+	z-index: 3;
 }

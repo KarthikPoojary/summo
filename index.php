@@ -109,74 +109,10 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/banner.jpeg" data-natural-width=3000 data-natural-height=2000 data-position="">
-    
-    <div class="shadow-overlay"></div>
-    
-    
-    
-    <div class="home-content">
-        <div class="success">
-            <?php
-            // session_start();
-            if(isset($_REQUEST['success']) == true){
-                // echo "Thank you for contacting us. We will be in touch with you very soon.";
-                echo '<div class="alert-box alert-box--success hideit">
-                        <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
-                        <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                    </div>';
-                // header("location:/");
-            }?>
-        </div>
-        
-        <div class="row home-content__main">
-            <h1>
-            Hello folks, we are <br>
-            Summo Brandcom.
-            </h1>
-
-            <p>
-            We create stunning digital experiences <br>
-            that will help your business stand out.
-            </p>
-        </div> <!-- end home-content__main -->
-
-    </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-            <li><a class="smoothscroll" href="#works">Work<span>our work</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow Us</li>
-            <li><a href="#0">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Twitter</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
-            </a></li>
-        </ul> <!-- end home-social -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__text">Scroll Down</span>
-            <span class="home-scroll__icon"></span>
-        </a> <!-- end home-scroll -->
-
-    </section> <!-- end s-home -->
-
     <section>
-        <div class="slide">
+        <div id="home" class="slide">
             <ul>
-                <li data-bg="images/banner/Image-1.jpg">
+                <li data-bg="images/banner/image-1.jpeg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -210,7 +146,7 @@
                         </div>
                     </div>
                 </li>
-                <!-- <li data-bg="images/banner/Image-2.jpg">
+                <li data-bg="images/banner/image-2.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -228,7 +164,7 @@
                         </div>
                     </div>
                 </li>
-                <li data-bg="images/banner/Image-3.jpg">
+                <li data-bg="images/banner/image-3.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -246,7 +182,7 @@
                         </div>
                     </div>
                 </li>
-                <li data-bg="images/banner/Image-4.jpg">
+                <li data-bg="images/banner/image-4.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -263,9 +199,56 @@
                             </div> 
                         </div>
                     </div>
-                </li> -->
-            </ul><!-- end home-content__main -->        
+                </li>
+                <li data-bg="images/banner/image-5.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="row home-content__main">
+                                    <h1>
+                                    Slide 5 Title
+                                    </h1>
+
+                                    <p>
+                                    Slide 5 Description
+                                    </p>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </li>
+            </ul><!-- end home-content__main -->  
+            
+                    <a href="#about" class="home-scroll smoothscroll">
+                        <span class="home-scroll__text">Scroll Down</span>
+                        <span class="home-scroll__icon"></span>
+                    </a>                   
         </div>
+
+        <ul class="home-sidelinks">
+            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
+            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
+            <li><a class="smoothscroll" href="#works">Work<span>our works</span></a></li>
+            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+        </ul> <!-- end home-sidelinks -->
+
+
+        <ul class="home-social">
+            <li class="home-social-title">Follow Us</li>
+            <li><a href="#0">
+                <i class="fab fa-facebook"></i>
+                <span class="home-social-text">Facebook</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-twitter"></i>
+                <span class="home-social-text">Twitter</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-linkedin"></i>
+                <span class="home-social-text">LinkedIn</span>
+            </a></li>
+        </ul> <!-- end home-social -->
     </section>
     <!-- about
     ================================================== -->
@@ -910,15 +893,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </script>
 <script src="js/jquery.slide.js"></script>
 <script type="text/javascript">
-      $(function() {
+    $(function() {
         $('.slide').slide({
-          'slideSpeed': 3000,
-          'isShowArrow': true,
-          'dotsEvent': 'mouseenter',
-          'isLoadAllImgs': true
+            'slideSpeed': 3000,
+            'isHoverStop': true,
+            'isShowArrow': false,
+            'dotsEvent': 'mouseenter',
+            'isLoadAllImgs': true
         });
-      });
-    </script>
+    });
+    
+</script>
 
 
 </body>

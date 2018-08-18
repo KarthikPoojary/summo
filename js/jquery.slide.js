@@ -19,7 +19,7 @@
       isShowArrow: true,                // 是否显示左右箭头
       isHoverShowArrow: true,           // 是否鼠标移上才显示箭头
       isLoadAllImgs: false,             // 是否一次性加载完全部图片
-      slideSpeed: 10000,                // 轮播速度 (ms)
+      slideSpeed: 100000,                // 轮播速度 (ms)
       switchSpeed: 500,                 // 图片切换速度 (ms)
       dotsClass: 'dots',                // 状态点样式
       dotActiveClass: 'active',         // 状态点激活样式
