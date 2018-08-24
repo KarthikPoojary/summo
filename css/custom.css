@@ -1,56 +1,43 @@
+/* General */
 
-.success{
-	padding-top: 20px; 
+img {
+	font-size: 10px;
+}
+
+/* Contact Success dialog box */
+
+.success {
+	padding-top: 50px;
 	position: absolute;
 	text-align: center;
 	z-index: 999;
-	left:30%;
+	left: 30%;
 	right: 30%;
+}
+
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+	font-size: 18px;
 }
 
 @media (max-width: 576px) {
 	.success {
-		left:10%;
+		left: 10%;
 		right: 10%;
 	}
-	.success p{
+	.success p {
 		font-size: 10px;
 	}
-  }
-
-.wrap-input2 input{
-	background-color: white; 
-	color: black;
 }
 
-.wrap-input2 textarea{
-	background-color: white; 
-	color: black;
-}
+/* Header Nav */
 
-.service-icon{
-	width: 20%;
-}
-.intro-icon{
-	width: 100px;
-}
-img{
-	font-size: 10px;
-}
-
-.thumb-link img{
-	border: 1px solid black;
-}
-
-.contacthead{
-	padding-bottom: 20px;
-}
-
-.header-menu-toggle{
+.header-menu-toggle {
 	z-index: 501;
 }
 
-.logo{
+.logo {
 	display: block;
 	padding: 20px;
 	text-align: left;
@@ -59,44 +46,22 @@ img{
 	position: relative;
 }
 
-.service-text{
-	text-align: center;
-}
-.service-text p{
-	text-align: justify;
-}
+/* Header Nav Mobile*/
 
-.service-icon{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.header-nav__content h3{
+.header-nav__content h3 {
 	font-size: 2em;
 }
 
-.header-nav__list li a{
+.header-nav__list li a {
 	font-size: 1.4em;
 	padding-left: 50px;
 }
+
 .header-nav__list li a::before {
 	font-size: 1em;
 }
 
-.contact-cust{
-	font-family: "metropolis-light", sans-serif;
-  font-size: 2rem;
-  line-height: 1.7;
-  display: block;
-}
-
-.contact-main{
-	margin-top: 0px;
-}
-.contact-secondary{
-	padding-right: 20px;
-}
+/* Home Slider Contents */
 
 .shadow {
 	margin-left: -4.5px;
@@ -104,14 +69,100 @@ img{
 	height: 100vh;
 }
 
-.home-scroll{
+.home-scroll {
 	z-index: 3;
 }
 
-.home-social{
+.home-social {
 	z-index: 3;
 }
 
-.home-sidelinks{
+.home-sidelinks {
 	z-index: 3;
+}
+
+.slider-progress {
+	z-index: 3;
+}
+
+/* progress bar */
+
+.slider-progress {
+	width: 100%;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	bottom: 0;
+}
+
+.slider-progress .progress {
+	width: 0%;
+	height: 10px;
+	background: #e74c3c;
+}
+
+.progress {
+	z-index: 999;
+}
+
+/* who we are icon */
+
+.intro-icon {
+	width: 100px;
+}
+
+/* What we do icon */
+
+.service-text {
+	text-align: center;
+}
+
+.service-text p {
+	text-align: justify;
+}
+
+.service-icon {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 20%;
+}
+
+/* our works */
+
+.thumb-link img {
+	border: 1px solid black;
+}
+
+/* Contact Us */
+
+.contact-cust {
+	font-family: "metropolis-light", sans-serif;
+	font-size: 2rem;
+	line-height: 1.7;
+	display: block;
+}
+
+.contact-main {
+	margin-top: 0px;
+}
+
+.contact-secondary {
+	padding-right: 20px;
+}
+
+/* Contact Form */
+
+.wrap-input2 input {
+	background-color: white;
+	color: black;
+}
+
+.wrap-input2 textarea {
+	background-color: white;
+	color: black;
+}
+
+.contacthead {
+	padding-bottom: 20px;
 }

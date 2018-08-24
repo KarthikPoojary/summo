@@ -134,24 +134,24 @@
     ================================================== -->
     <section>
         <div id="home" class="slide">
+            <div class="success">
+                <?php
+                    if(isset($_REQUEST['success']) == true){
+                        // echo "Thank you for contacting us. We will be in touch with you very soon.";
+                        echo '<div class="alert-box alert-box--success hideit">
+                                <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
+                                <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                            </div>';
+                    }
+                ?>
+            </div>
             <ul>
                 <li data-bg="images/banner/image-1.jpeg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
                             <div class="home-content">
-                                <div class="success">
-                                    <?php
-                                    // session_start();
-                                    if(isset($_REQUEST['success']) == true){
-                                        // echo "Thank you for contacting us. We will be in touch with you very soon.";
-                                        echo '<div class="alert-box alert-box--success hideit">
-                                                <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
-                                                <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                                            </div>';
-                                        // header("location:/");
-                                    }?>
-                                </div>
+
 
                                 <div class="row home-content__main">
                                     <h1>
@@ -297,6 +297,9 @@
             </li>
         </ul>
         <!-- end home-social -->
+        <div class="slider-progress">
+            <div class="progress"></div>
+        </div>
     </section>
     <!-- about
     ================================================== -->
@@ -1007,6 +1010,8 @@
     <!--===============================================================================================-->
     <script src="vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
+    <script src="js/custom.js"></script>
+    <!--===============================================================================================-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <script type="text/javascript">
         $('.js-tilt').tilt({
@@ -1023,14 +1028,30 @@
     <script type="text/javascript">
         $(function () {
             $('.slide').slide({
+                'isAutoSlide': true,
                 'slideSpeed': 5000,
                 'isHoverStop': true,
                 'isShowArrow': false,
                 'dotsEvent': 'mouseenter',
                 'isLoadAllImgs': true
             });
+
         });
     </script>
+
+    <script type="text/javascript">
+        var uri = window.location.toString();
+        if (uri.indexOf("?") > 0) {
+            var clean_uri = uri.substring(0, uri.indexOf("?"));
+            window.history.replaceState({}, document.title, clean_uri);
+        }
+        window.setTimeout(function () {
+            $(".alert-box").fadeTo(500, 0).slideUp(500, function () {
+                $(this).remove();
+            });
+        }, 4000);
+    </script>
+
 
 
 </body>
