@@ -421,7 +421,7 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Media Management</h3>
-                    <p>When it comes to gaining exposure, it's the right kind of exposure that matters. At Seven Islands, we
+                    <p>When it comes to gaining exposure, it's the right kind of exposure that matters. At Summo Brandcom, we
                         ensure that your campaigns reach out to the right target audiences, through the right mediums. Be
                         it television, radio, print, outdoor or digital, we formulate the most effective media mixes and
                         we manage and monitor them as well.
