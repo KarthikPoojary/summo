@@ -4,6 +4,12 @@ img {
 	font-size: 10px;
 }
 
+.body {}
+
+.subhead {
+	font-size: 3rem;
+}
+
 /* Contact Success dialog box */
 
 .success {
@@ -67,6 +73,7 @@ img {
 	margin-left: -4.5px;
 	width: 100vw;
 	height: 100vh;
+	height: 600px;
 }
 
 .home-scroll {
@@ -83,6 +90,29 @@ img {
 
 .slider-progress {
 	z-index: 3;
+}
+
+.home-content__main h1 {
+	font-size: 6.8rem;
+	margin-top: -100px;
+	font-weight: 700;
+}
+
+.highlight {
+	padding: 20px;
+	font-weight: 700;
+}
+
+.color1 {
+	background-color: #883f8e;
+}
+
+.color2 {
+	background-color: #4f7d9f;
+}
+
+.color3 {
+	background-color: #b4462c;
 }
 
 /* progress bar */
@@ -105,13 +135,24 @@ img {
 	z-index: 999;
 }
 
-/* who we are icon */
+/* who we are*/
 
 .intro-icon {
 	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* What we do icon */
+p.lead {
+	text-align: justify;
+	color: black;
+}
+
+.s-about {
+	padding-bottom: 0px;
+}
+
+/* What we do */
 
 .service-text {
 	text-align: center;
@@ -125,13 +166,64 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	margin-top: 20px;
 	width: 20%;
+}
+
+.h4,
+.service-text p {
+	color: white;
+	padding: 0 5px;
+}
+
+.service-item {
+	padding: 20px;
+	margin: 15px 0px;
+	border: 3px solid #f1f1f1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.backclr1 {
+	background-color: #883f8e;
+	min-height: calc(100vh - 300px);
+}
+
+.backclr2 {
+	background-color: #8ba633;
+	min-height: calc(100vh - 300px);
+}
+
+.backclr3 {
+	background-color: #d25f26;
+	min-height: calc(100vh - 285px);
+}
+
+.backclr4 {
+	background-color: #63a2d7;
+	min-height: calc(100vh - 300px);
+}
+
+.backclr5 {
+	background-color: #cb7037;
+	min-height: calc(100vh - 300px);
+}
+
+.backclr6 {
+	background-color: #c43489;
+	min-height: calc(100vh - 300px);
 }
 
 /* our works */
 
 .thumb-link img {
 	border: 1px solid black;
+}
+
+.display-1 {
+	font-size: 5.6rem;
 }
 
 /* Contact Us */
@@ -151,6 +243,20 @@ img {
 	padding-right: 20px;
 }
 
+.contact-address {
+	font-size: 2.3rem;
+	color: white;
+}
+
+.bname {
+	font-size: 2.8rem;
+	font-weight: 800;
+}
+
+.cname {
+	color: white;
+}
+
 /* Contact Form */
 
 .wrap-input2 input {
@@ -166,3 +272,5 @@ img {
 .contacthead {
 	padding-bottom: 20px;
 }
+
+.

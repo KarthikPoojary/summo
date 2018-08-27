@@ -33,7 +33,12 @@ $(function () {
             });
             if (percentTime >= 100) {
                 // $slick.slick('slickNext');
-                $(".dots li").trigger('mouseover');
+                // $(".dots li").trigger('mouseover');
+                // $('.dots li').removeClass("acive");
+                // $('.dots li').addClass("active").parent().next().addClass("show2");
+
+                $('.dots li.active').removeClass("active").next().addClass("active");
+                // $('.dots li').parent().next().addClass("active");
                 startProgressbar();
             }
         }

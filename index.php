@@ -52,6 +52,8 @@
     <!-- Background Slideshow -->
     <link rel="stylesheet" href="css/jquery.slide.css">
 
+    <!-- Font inport -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 
@@ -104,7 +106,7 @@
                             <i class="fab fa-facebook"></i>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#0">
                             <i class="fab fa-twitter"></i>
                         </a>
@@ -113,7 +115,7 @@
                         <a href="#0">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>
@@ -146,7 +148,7 @@
                 ?>
             </div>
             <ul>
-                <li data-bg="images/banner/image-1.jpeg">
+                <li data-bg="images/banner/image-2.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -155,14 +157,10 @@
 
                                 <div class="row home-content__main">
                                     <h1>
-                                        Hello folks, we are
-                                        <br> Summo Brandcom.
+                                        We Connect Brands to
+                                        <span class="highlight color1"> People </span>
+                                        <!-- <br> Summo Brandcom. -->
                                     </h1>
-
-                                    <p>
-                                        We create stunning digital experiences
-                                        <br> that will help your business stand out.
-                                    </p>
                                 </div>
                                 <!-- end home-content__main -->
 
@@ -170,7 +168,7 @@
                         </div>
                     </div>
                 </li>
-                <li data-bg="images/banner/image-2.jpg">
+                <!-- <li data-bg="images/banner/image-2.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -187,26 +185,23 @@
                             </div>
                         </div>
                     </div>
-                </li>
-                <li data-bg="images/banner/image-3.jpg">
+                </li> -->
+                <li data-bg="images/banner/image-4.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
                             <div class="home-content">
                                 <div class="row home-content__main">
                                     <h1>
-                                        Slide 3 Title
+                                        Smarter
+                                        <span class="highlight color3"> Campaigns </span>
                                     </h1>
-
-                                    <p>
-                                        Slide 3 Description
-                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li data-bg="images/banner/image-4.jpg">
+                <!-- <li data-bg="images/banner/image-4.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -223,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> -->
                 <li data-bg="images/banner/image-5.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
@@ -231,12 +226,9 @@
                             <div class="home-content">
                                 <div class="row home-content__main">
                                     <h1>
-                                        Slide 5 Title
+                                        Bigger. Bolder.
+                                        <span class="highlight color2"> Beyond Reach </span>
                                     </h1>
-
-                                    <p>
-                                        Slide 5 Description
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +275,7 @@
                     <span class="home-social-text">Facebook</span>
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#0">
                     <i class="fab fa-twitter"></i>
                     <span class="home-social-text">Twitter</span>
@@ -294,7 +286,7 @@
                     <i class="fab fa-linkedin"></i>
                     <span class="home-social-text">LinkedIn</span>
                 </a>
-            </li>
+            </li> -->
         </ul>
         <!-- end home-social -->
         <div class="slider-progress">
@@ -314,12 +306,15 @@
         <!-- end section-header -->
 
         <div class="row" data-aos="fade-up">
-            <div class="col-full">
+
+            <div class="col-two tab-full ">
+                <div class="intro-icon">
+                    <img src="images/services/Intro_Icon.png" alt="Into Icon">
+                </div>
+            </div>
+            <div class="col-ten tab-full ">
                 <p class="lead">
-                    <div class="intro-icon">
-                        <!-- <i class="icon-tv"></i> -->
-                        <img src="images/services/Intro_Icon.png" alt="Into Icon">
-                    </div>
+
                     A full fledged 360 degree media advertising agency head quartered in Mumbai, Summo Brandcom is the perennial flow of fresh
                     ideas that sifts through the consumer values, needs and beliefs to communicate messages that propel the
                     brand towards the target audience.
@@ -414,9 +409,9 @@
 
         <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
 
-            <div class="col-block service-item " data-aos="fade-up">
+            <!-- <div class="col-block service-item " data-aos="fade-up">
                 <div class="service-icon">
-                    <!-- <i class="icon-tv"></i> -->
+                    <!-<i class="icon-tv"></i> 
                     <img src="images/services/Media_Management.png" alt="Media Management">
                 </div>
                 <div class="service-text">
@@ -427,9 +422,9 @@
                         we manage and monitor them as well.
                     </p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item backclr1" data-aos="fade-up">
                 <div class="service-icon">
                     <!-- <i class="icon-group"></i> -->
                     <img src="images/services/Outofhome_Icon.png" alt="Out of Home ">
@@ -444,7 +439,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item backclr2" data-aos="fade-up">
                 <div class="service-icon">
                     <!-- <i class="icon-earth"></i> -->
                     <img src="images/services/Ambientmedia_Icon.png" alt="Ambient  Media">
@@ -459,7 +454,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item backclr3" data-aos="fade-up">
                 <div class="service-icon">
                     <!-- <i class="icon-cube"></i> -->
                     <img src="images/services/Digitalmarketing_Icon.png" alt="Digital Marketing">
@@ -474,7 +469,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item backclr4" data-aos="fade-up">
                 <div class="service-icon">
                     <!-- <i class="icon-window"></i> -->
                     <img src="images/services/Experiential_Marketing.png" alt="Experiential Marketing">
@@ -489,7 +484,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item backclr5" data-aos="fade-up">
                 <div class="service-icon">
                     <!-- <i class="icon-lego-block"></i> -->
                     <img src="images/services/Retail_Management_Icon.png" alt="Retail Management">
@@ -504,7 +499,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up" data-aos-delay="0">
+            <div class="col-block service-item backclr6" data-aos="fade-up" data-aos-delay="0">
                 <div class="service-icon">
                     <!-- <i class="icon-lego-block"></i> -->
                     <img src="images/services/Printprodution_Icon.png" alt="Print Production ">
@@ -533,7 +528,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Our Works</h3>
-                <h1 class="display-1">These are some of our recent campaigns and we are excited to show them to you</h1>
+                <h1 class="display-1">These are some of our recent campaigns</h1>
             </div>
         </div>
         <!-- end section-header -->
@@ -545,14 +540,14 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Lamp" data-size="1050x700">
-                                <!-- <img src="http://via.placeholder.com/1000x1000" 
-                                     srcset="http://via.placeholder.com/100x100 1x, http://via.placeholder.com/1000x1000 2x" alt=""> -->
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
+                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                                <!-- <img src="images/clients/ourwork/" 
+                                     srcset="http://via.placeholder.com/100x100 1x, images/clients/ourwork/ 2x" alt=""> -->
+                                <img src="images/clients/ourwork/Bandrabranch_GSB.jpg" alt="">
                             </a>
                         </div>
 
-                        <div class="item-folio__text">
+                        <!-- <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 Title 1
                             </h3>
@@ -568,7 +563,7 @@
                         <div class="item-folio__caption">
                             <p>Desc 1 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
                                 dolorem corrupti neque nisi.</p>
-                        </div>
+                        </div> -->
 
                     </div>
                     <!-- end item-folio -->
@@ -579,12 +574,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Salad" data-size="1050x700">
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
+                            <a href="images/clients/ourwork/DSC03816_2.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                                <img src="images/clients/ourwork/DSC03816_2.jpg" alt="">
                             </a>
                         </div>
 
-                        <div class="item-folio__text">
+                        <!-- <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 Title 2
                             </h3>
@@ -600,7 +595,7 @@
                         <span class="item-folio__caption">
                             <p>Desc 2 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
                                 dolorem corrupti neque nisi.</p>
-                        </span>
+                        </span> -->
 
                     </div>
                     <!-- end item-folio -->
@@ -611,12 +606,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
+                            <a href="images/clients/ourwork/eBiotech_1.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/clients/ourwork/eBiotech_1.jpg" alt="">
                             </a>
                         </div>
 
-                        <div class="item-folio__text">
+                        <!-- <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 Title 3
                             </h3>
@@ -632,7 +627,7 @@
                         <span class="item-folio__caption">
                             <p>Desc 3 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
                                 dolorem corrupti neque nisi.</p>
-                        </span>
+                        </span> -->
 
                     </div>
                     <!-- end item-folio -->
@@ -643,12 +638,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Liberty" data-size="1050x700">
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
+                            <a href="images/clients/ourwork/IMG_9285.JPGIMG_9285.JPG" class="thumb-link" title="Liberty" data-size="1050x700">
+                                <img src="images/clients/ourwork/IMG_9285.JPG" alt="">
                             </a>
                         </div>
 
-                        <div class="item-folio__text">
+                        <!-- <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 Title 4
                             </h3>
@@ -664,7 +659,7 @@
                         <span class="item-folio__caption">
                             <p>Desc 4 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
                                 dolorem corrupti neque nisi.</p>
-                        </span>
+                        </span> -->
 
                     </div>
                     <!-- end item-folio -->
@@ -676,44 +671,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Fuji" data-size="1050x700">
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
+                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" alt="">
                             </a>
                         </div>
 
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 5
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 5
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 5
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 5 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div>
-                    <!-- end item-folio -->
-                </div>
-                <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="http://via.placeholder.com/1000x1000" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="http://via.placeholder.com/1000x1000" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
+                        <!-- <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 Title 6
                             </h3>
@@ -729,7 +692,38 @@
                         <span class="item-folio__caption">
                             <p>Desc 6 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
                                 dolorem corrupti neque nisi.</p>
-                        </span>
+                        </span> -->
+                    </div>
+                    <!-- end item-folio -->
+                </div>
+                <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Title 6
+                            </h3>
+                            <p class="item-folio__cat">
+                                Sub Title 6
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project 6
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Desc 6 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
+                                dolorem corrupti neque nisi.</p>
+                        </span> -->
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -827,7 +821,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater brand visibility.</h1>
+                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea into a greater brand visibility.</h1>
             </div>
         </div>
         <!-- end section-header -->
@@ -857,7 +851,7 @@
                 <h3 class="subhead subhead--light">Where To Find Us</h3>
 
                 <p class="contact-address">
-                    Summo Brandcom
+                    <span class="bname">Summo Brandcom</span>
                     <br> No.5, A2, Shah & Nahar Industrial Estate,
                     <br> Lower Parel, Mumbai – 400 013.
                 </p>
@@ -931,7 +925,8 @@
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | Designed by
+                    </script>
+                    <span class="cname">Summo Brandcom </span> Designed by
                     <a href="https://github.com/KarthikPoojary/" target="_blank">Karthik Poojary</a>
                 </span>
             </div>
@@ -1028,7 +1023,7 @@
     <script type="text/javascript">
         $(function () {
             $('.slide').slide({
-                'isAutoSlide': true,
+                'isAutoSlide': false,
                 'slideSpeed': 5000,
                 'isHoverStop': true,
                 'isShowArrow': false,
