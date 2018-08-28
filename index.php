@@ -52,6 +52,10 @@
     <!-- Background Slideshow -->
     <link rel="stylesheet" href="css/jquery.slide.css">
 
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
     <!-- Font inport -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
@@ -92,6 +96,9 @@
                     </li>
                     <li>
                         <a class="smoothscroll" href="#works" title="works">Works</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#clients" title="clients">Clients</a>
                     </li>
                     <li>
                         <a class="smoothscroll" href="#contact" title="contact">Contact</a>
@@ -260,6 +267,11 @@
                 </a>
             </li>
             <li>
+                <a class="smoothscroll" href="#clients">Clients
+                    <span>our clients</span>
+                </a>
+            </li>
+            <li>
                 <a class="smoothscroll" href="#contact">Contact
                     <span>get in touch</span>
                 </a>
@@ -315,16 +327,22 @@
             <div class="col-ten tab-full ">
                 <p class="lead">
 
-                    A full fledged 360 degree media advertising agency head quartered in Mumbai, Summo Brandcom is the perennial flow of fresh
-                    ideas that sifts through the consumer values, needs and beliefs to communicate messages that propel the
+                    A full fledged 360 degree media advertising agency head quartered in Mumbai, Summo Brandcom is the
+                    perennial flow of fresh
+                    ideas that sifts through the consumer values, needs and beliefs to communicate messages that propel
+                    the
                     brand towards the target audience.
                     <br>
-                    <br> Summo Brandcom offers your brand all media solutions including Media Planning & Buying, Digital Marketing,
+                    <br> Summo Brandcom offers your brand all media solutions including Media Planning & Buying,
+                    Digital Marketing,
                     Ambient Media solutions, Experiential Marketing, Retail Management & Print Production.
                     <br>
-                    <br> Our partnership with clients in strategic communication to bringing long term advantage for their brands
-                    and the organization has not only given positive results but has also cemented our relationship. Breaking
-                    away from the conventional Ad Agency set up, we are also offering Social Media and Online Marketing with
+                    <br> Our partnership with clients in strategic communication to bringing long term advantage for
+                    their brands
+                    and the organization has not only given positive results but has also cemented our relationship.
+                    Breaking
+                    away from the conventional Ad Agency set up, we are also offering Social Media and Online Marketing
+                    with
                     Website Design and Development SEO and SEM services.
                     <br>
                     <br>
@@ -431,9 +449,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Out of Home </h3>
-                    <p>We also specialize in impressions that can't be quantified. Our out of home media expertise and connections
-                        is the key to your brand's enhanced reach. Right from traditional formats such as Hoardings, Gantry's,
-                        Bus Q Shelter, Airport & Railway Stations, we're well versed when it comes to conceptualizing and
+                    <p>We also specialize in impressions that can't be quantified. Our out of home media expertise and
+                        connections
+                        is the key to your brand's enhanced reach. Right from traditional formats such as Hoardings,
+                        Gantry's,
+                        Bus Q Shelter, Airport & Railway Stations, we're well versed when it comes to conceptualizing
+                        and
                         executing various outdoor campaigns and out of home installations.
                     </p>
                 </div>
@@ -446,9 +467,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Ambient Media</h3>
-                    <p>Ambient Media is all about captive audience and high dwell time areas where audience is in receptive
-                        mode giving high visibility to the communication of the brand. Ambient media is an extension to OOH
-                        where people are on move and in out of home space.  In Ambient media space your brand have the opportunity
+                    <p>Ambient Media is all about captive audience and high dwell time areas where audience is in
+                        receptive
+                        mode giving high visibility to the communication of the brand. Ambient media is an extension to
+                        OOH
+                        where people are on move and in out of home space.  In Ambient media space your brand have the
+                        opportunity
                         to advertise in Cinema, Malls & Multiplexes, Super Markets, Coffee Shops & Restaurants.
                     </p>
                 </div>
@@ -461,9 +485,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Digital Marketing</h3>
-                    <p>Our digital marketing team is well versed when it comes to managing and promoting your brand on various
-                        digital platforms. Content generation, Social Media Management, Search Engine Optimization, Search
-                        Engine Marketing, managing your websites, Instagram handles and Youtube channels are some of the
+                    <p>Our digital marketing team is well versed when it comes to managing and promoting your brand on
+                        various
+                        digital platforms. Content generation, Social Media Management, Search Engine Optimization,
+                        Search
+                        Engine Marketing, managing your websites, Instagram handles and Youtube channels are some of
+                        the
                         services on our digital platter.
                     </p>
                 </div>
@@ -476,9 +503,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Experiential Marketing</h3>
-                    <p>When brands become human, it's only because of the experience they deliver on a personal basis. Our experiential
-                        marketing solutions are catered towards propelling your brand beyond conventional mediums, through
-                        activations, on ground promotions and customized events. Creating optimum engagement is what we do
+                    <p>When brands become human, it's only because of the experience they deliver on a personal basis.
+                        Our experiential
+                        marketing solutions are catered towards propelling your brand beyond conventional mediums,
+                        through
+                        activations, on ground promotions and customized events. Creating optimum engagement is what we
+                        do
                         best, and no better way than connecting directly to those who matter.
                     </p>
                 </div>
@@ -491,9 +521,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Retail Management</h3>
-                    <p>We are adept at crossing mediums to deliver ideal marketing solutions as well as highly intrinsic when
-                        it comes to guiding you through effective strategies to accentuate your retail spaces. Our Store
-                        Design, Signage, Visual Merchandising & Trade Marketing expertise will only heighten your customer's
+                    <p>We are adept at crossing mediums to deliver ideal marketing solutions as well as highly
+                        intrinsic when
+                        it comes to guiding you through effective strategies to accentuate your retail spaces. Our
+                        Store
+                        Design, Signage, Visual Merchandising & Trade Marketing expertise will only heighten your
+                        customer's
                         experience and leave an impression that will trigger them to come back for more.
                     </p>
                 </div>
@@ -506,9 +539,12 @@
                 </div>
                 <div class="service-text">
                     <h3 class="h4">Print Production</h3>
-                    <p>From print, to audio to film, we attain the right partners to work with us when it comes to executing
-                        your specialized campaigns. With utmost quality being maintained in the pre-production stages, we
-                        execute intricate supervision and meticulous planning in the post production aspects as well - carefully
+                    <p>From print, to audio to film, we attain the right partners to work with us when it comes to
+                        executing
+                        your specialized campaigns. With utmost quality being maintained in the pre-production stages,
+                        we
+                        execute intricate supervision and meticulous planning in the post production aspects as well -
+                        carefully
                         managing and delivering only the best output through the most efficient minds in the industry.
                     </p>
                 </div>
@@ -540,7 +576,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" title="Lamp"
+                                data-size="1050x700">
                                 <!-- <img src="images/clients/ourwork/" 
                                      srcset="http://via.placeholder.com/100x100 1x, images/clients/ourwork/ 2x" alt=""> -->
                                 <img src="images/clients/ourwork/Bandrabranch_GSB.jpg" alt="">
@@ -606,7 +643,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/eBiotech_1.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                            <a href="images/clients/ourwork/eBiotech_1.jpg" class="thumb-link" title="Woodcraft"
+                                data-size="1050x700">
                                 <img src="images/clients/ourwork/eBiotech_1.jpg" alt="">
                             </a>
                         </div>
@@ -638,7 +676,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/IMG_9285.JPGIMG_9285.JPG" class="thumb-link" title="Liberty" data-size="1050x700">
+                            <a href="images/clients/ourwork/IMG_9285.JPGIMG_9285.JPG" class="thumb-link" title="Liberty"
+                                data-size="1050x700">
                                 <img src="images/clients/ourwork/IMG_9285.JPG" alt="">
                             </a>
                         </div>
@@ -671,7 +710,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" class="thumb-link"
+                                title="Shutterbug" data-size="1050x700">
                                 <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" alt="">
                             </a>
                         </div>
@@ -702,7 +742,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" title="Shutterbug"
+                                data-size="1050x700">
                                 <img src="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" alt="">
                             </a>
                         </div>
@@ -785,6 +826,27 @@
     </section>
     <!-- end s-works -->
 
+    <!-- Our Clients -->
+    <section id='clients' class="s-clients light-gray">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--light">Our Clients</h3>
+                <h1 class="display-1">Meet Our Clients</h1>
+                <div class="owl-carousel">
+                    <div> <img src="images/clients/clients_logo/chilly_willy.jpg" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Ebaotech_Logo.png" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Goldenbansi_logo_3.png" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Lokmat_Logo.png" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Solosoftdrinks-Logo.jpg" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Sunday_Mobility_Logo.png" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Volvo_Car_Logo.jpg" alt=""> </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end clients -->
 
     <!-- stats
     ================================================== -->
@@ -821,7 +883,8 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea into a greater brand visibility.</h1>
+                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn
+                    your idea into a greater brand visibility.</h1>
             </div>
         </div>
         <!-- end section-header -->
@@ -1034,6 +1097,33 @@
         });
     </script>
 
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                slideTransition: "ease-in-out",
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Removal of Contact form alert box -->
     <script type="text/javascript">
         var uri = window.location.toString();
         if (uri.indexOf("?") > 0) {

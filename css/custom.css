@@ -1,17 +1,13 @@
 /* General */
-
 img {
 	font-size: 10px;
 }
-
-.body {}
 
 .subhead {
 	font-size: 3rem;
 }
 
 /* Contact Success dialog box */
-
 .success {
 	padding-top: 50px;
 	position: absolute;
@@ -32,13 +28,13 @@ img {
 		left: 10%;
 		right: 10%;
 	}
+
 	.success p {
 		font-size: 10px;
 	}
 }
 
 /* Header Nav */
-
 .header-menu-toggle {
 	z-index: 501;
 }
@@ -52,8 +48,7 @@ img {
 	position: relative;
 }
 
-/* Header Nav Mobile*/
-
+/* Header Responsive Nav (Mobile)*/
 .header-nav__content h3 {
 	font-size: 2em;
 }
@@ -68,7 +63,6 @@ img {
 }
 
 /* Home Slider Contents */
-
 .shadow {
 	margin-left: -4.5px;
 	width: 100vw;
@@ -105,6 +99,8 @@ img {
 
 .color1 {
 	background-color: #883f8e;
+	/* margin-top: 1000px; */
+	/* position: absolute; */
 }
 
 .color2 {
@@ -116,7 +112,6 @@ img {
 }
 
 /* progress bar */
-
 .slider-progress {
 	width: 100%;
 	height: 10px;
@@ -136,7 +131,6 @@ img {
 }
 
 /* who we are*/
-
 .intro-icon {
 	width: 100px;
 	margin-left: auto;
@@ -153,7 +147,6 @@ p.lead {
 }
 
 /* What we do */
-
 .service-text {
 	text-align: center;
 }
@@ -177,9 +170,15 @@ p.lead {
 }
 
 .service-item {
-	padding: 20px;
-	margin: 15px 0px;
+	/* padding: 20px;
+	margin: 15px 0px; */
 	border: 3px solid #f1f1f1;
+	/* top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0; */
+	/* position: absolute; */
+	margin: auto;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -198,7 +197,7 @@ p.lead {
 
 .backclr3 {
 	background-color: #d25f26;
-	min-height: calc(100vh - 285px);
+	min-height: calc(100vh - 300px);
 }
 
 .backclr4 {
@@ -217,7 +216,6 @@ p.lead {
 }
 
 /* our works */
-
 .thumb-link img {
 	border: 1px solid black;
 }
@@ -226,8 +224,18 @@ p.lead {
 	font-size: 5.6rem;
 }
 
-/* Contact Us */
+/* ===================================================================
+ * # services
+ *
+ * ------------------------------------------------------------------- */
+.s-clients {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	color: #555555;
+	position: relative;
+}
 
+/* Contact Us */
 .contact-cust {
 	font-family: "metropolis-light", sans-serif;
 	font-size: 2rem;
@@ -258,7 +266,6 @@ p.lead {
 }
 
 /* Contact Form */
-
 .wrap-input2 input {
 	background-color: white;
 	color: black;
@@ -273,4 +280,12 @@ p.lead {
 	padding-bottom: 20px;
 }
 
-.
+@media only screen and (max-width: 1200px) {
+	.home-content__main h1 {
+		/* font-size: 2em; */
+	}
+
+	.display-1 {
+		font-size: 1.5em;
+	}
+}
