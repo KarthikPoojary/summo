@@ -59,6 +59,13 @@
     <!-- Font inport -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
+    <style>
+        #map {
+        height: 250px;  
+        width: 100%;  
+       }
+    </style>
+
 </head>
 
 <body id="top">
@@ -918,6 +925,10 @@
                     <br> No.5, A2, Shah & Nahar Industrial Estate,
                     <br> Lower Parel, Mumbai – 400 013.
                 </p>
+
+                <!--The div element for the map -->
+                <div id="map"></div>
+
             </div>
             <!-- end contact-secondary -->
 
@@ -1137,7 +1148,29 @@
         }, 4000);
     </script>
 
-
+    <!-- <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 18.994440,
+                lng: 72.827997
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 14,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU0yOwlD3RY3nZHk0k7y9he8724JDWfk&callback=initMap">
+    </script>
 
 </body>
 
