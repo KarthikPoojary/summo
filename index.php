@@ -1097,7 +1097,7 @@
     <script type="text/javascript">
         $(function () {
             $('.slide').slide({
-                'isAutoSlide': false,
+                'isAutoSlide': true,
                 'slideSpeed': 5000,
                 'isHoverStop': true,
                 'isShowArrow': false,
