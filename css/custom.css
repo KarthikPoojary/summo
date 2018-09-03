@@ -265,6 +265,10 @@ p.lead {
 	color: white;
 }
 
+#firstHeading {
+	font-size: 20px;
+}
+
 /* Contact Form */
 .wrap-input2 input {
 	background-color: white;

@@ -79,10 +79,28 @@ function initMap() {
             zoom: 14,
             center: uluru
         });
+
+    var contentString = '<div id="content">' +
+        '<div id="siteNotice">' +
+        '</div>' +
+        '<h1 id="firstHeading" class="firstHeading">Summo Brandcom</h1>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+
+
+
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({
         position: uluru,
-        map: map
+        map: map,
+        title: 'Summo Brandcom'
+    });
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
     });
 
 }
