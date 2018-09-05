@@ -308,9 +308,9 @@
             </li> -->
         </ul>
         <!-- end home-social -->
-        <div class="slider-progress">
+        <!-- <div class="slider-progress">
             <div class="progress"></div>
-        </div>
+        </div> -->
     </section>
     <!-- about
     ================================================== -->
@@ -583,8 +583,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" title="Lamp"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" data-size="1050x700">
                                 <!-- <img src="images/clients/ourwork/" 
                                      srcset="http://via.placeholder.com/100x100 1x, images/clients/ourwork/ 2x" alt=""> -->
                                 <img src="images/clients/ourwork/Bandrabranch_GSB.jpg" alt="">
@@ -618,7 +617,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/DSC03816_2.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                            <a href="images/clients/ourwork/DSC03816_2.jpg" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/DSC03816_2.jpg" alt="">
                             </a>
                         </div>
@@ -650,8 +649,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/eBiotech_1.jpg" class="thumb-link" title="Woodcraft"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/eBiotech_1.jpg" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/eBiotech_1.jpg" alt="">
                             </a>
                         </div>
@@ -683,8 +681,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/IMG_9285.JPGIMG_9285.JPG" class="thumb-link" title="Liberty"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/IMG_9285.JPG" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/IMG_9285.JPG" alt="">
                             </a>
                         </div>
@@ -717,9 +714,9 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" class="thumb-link"
-                                title="Shutterbug" data-size="1050x700">
-                                <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.JPG" alt="">
+                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" class="thumb-link"
+                                data-size="1050x700">
+                                <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" alt="">
                             </a>
                         </div>
 
@@ -749,8 +746,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" title="Shutterbug"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" alt="">
                             </a>
                         </div>
@@ -1097,7 +1093,7 @@
     <script type="text/javascript">
         $(function () {
             $('.slide').slide({
-                'isAutoSlide': true,
+                'isAutoSlide': false,
                 'slideSpeed': 5000,
                 'isHoverStop': true,
                 'isShowArrow': false,

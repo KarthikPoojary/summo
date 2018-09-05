@@ -58,12 +58,20 @@
 	margin-left: -4.5px;
 	width: 100vw;
 	height: 100vh;
-	height: 600px;
+	min-height: 600px;
 }
 
 .s-home::before {
 	/* background-color: #696969; */
 	background: rgba(105, 105, 105, 0.5);
+}
+
+@media (max-width: 850px) {
+
+	#home,
+	.shadow {
+		min-height: 600px;
+	}
 }
 
 .home-sidelinks li {
@@ -95,11 +103,24 @@
 .highlight {
 	padding: 20px;
 	font-weight: 700;
+	line-height: 150px;
+	border-width: 0px;
+}
+
+@media (max-width: 480px) {
+	.home-content__main h1 {
+		/* margin-top: -100px; */
+		font-weight: 700;
+		font-size: 3.8rem;
+	}
+
+	.highlight {
+		line-height: 100px;
+	}
 }
 
 .color1 {
 	background-color: #883f8e;
-	/* margin-top: 1000px; */
 	/* position: absolute; */
 }
 
@@ -173,46 +194,37 @@ p.lead {
 	/* padding: 20px;
 	margin: 15px 0px; */
 	border: 3px solid #f1f1f1;
-	/* top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0; */
 	/* position: absolute; */
 	margin: auto;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	height: 430px;
 }
 
 .backclr1 {
 	background-color: #883f8e;
-	min-height: calc(100vh - 300px);
 }
 
 .backclr2 {
 	background-color: #8ba633;
-	min-height: calc(100vh - 300px);
 }
 
 .backclr3 {
 	background-color: #d25f26;
-	min-height: calc(100vh - 300px);
 }
 
 .backclr4 {
 	background-color: #63a2d7;
-	min-height: calc(100vh - 300px);
 }
 
 .backclr5 {
 	background-color: #cb7037;
-	min-height: calc(100vh - 300px);
 }
 
 .backclr6 {
 	background-color: #c43489;
-	min-height: calc(100vh - 300px);
 }
 
 /* our works */
