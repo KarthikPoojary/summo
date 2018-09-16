@@ -102,7 +102,7 @@
 }
 
 .highlight {
-	padding: 20px;
+	padding: 0px 20px;
 	font-weight: 700;
 	line-height: 150px;
 	border-width: 0px;
@@ -177,6 +177,11 @@ p.lead {
 }
 
 /* What we do */
+
+.s-services {
+	padding-bottom: 8rem;
+}
+
 .service-text {
 	text-align: center;
 }
