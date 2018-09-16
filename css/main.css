@@ -2702,7 +2702,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__thumb a::before {
   z-index: 1;
   display: block;
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.7); */
   content: "";
   opacity: 0;
   visibility: hidden;
@@ -2717,7 +2717,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::after {
   z-index: 1;
-  content: "...";
+  /* content: "..."; */
   font-family: georgia, serif;
   font-size: 3rem;
   color: #000000;

@@ -798,7 +798,7 @@
                             Tim Cook
                             <span>CEO, Apple</span>
                         </div>
-                    </div> <!-- end testimonials__slide 
+                    </div> <! end testimonials__slide 
 
                     <div class="testimonials__slide">
                         <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
@@ -1093,7 +1093,7 @@
     <script type="text/javascript">
         $(function () {
             $('.slide').slide({
-                'isAutoSlide': true,
+                'isAutoSlide': false,
                 'slideSpeed': 5000,
                 'isHoverStop': true,
                 'isShowArrow': false,

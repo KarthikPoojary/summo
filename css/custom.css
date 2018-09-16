@@ -95,7 +95,8 @@
 }
 
 .home-content__main h1 {
-	font-size: 6.8rem;
+	/* font-size: 6.8rem; */
+	font-size: 4vw;
 	margin-top: -100px;
 	font-weight: 700;
 }
@@ -107,11 +108,19 @@
 	border-width: 0px;
 }
 
+@media (max-width: 1400px) {
+	.home-content__main h1 {
+		font-size: 3.5vw;
+	}
+
+}
+
 @media (max-width: 480px) {
 	.home-content__main h1 {
 		/* margin-top: -100px; */
 		font-weight: 700;
-		font-size: 3.8rem;
+		/* font-size: 3.8rem; */
+		font-size: 5vw;
 	}
 
 	.highlight {
