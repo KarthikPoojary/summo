@@ -96,7 +96,7 @@
 
 .home-content__main h1 {
 	/* font-size: 6.8rem; */
-	font-size: 4vw;
+	font-size: 4.2vw;
 	margin-top: -100px;
 	font-weight: 700;
 }
@@ -110,7 +110,7 @@
 
 @media (max-width: 1400px) {
 	.home-content__main h1 {
-		font-size: 3.5vw;
+		font-size: 4vw;
 	}
 
 }
