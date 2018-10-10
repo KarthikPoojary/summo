@@ -112,7 +112,6 @@
                     </li>
                 </ul>
 
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href='#0'> Lorem </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> -->
 
                 <ul class="header-nav__social">
                     <li>
@@ -153,7 +152,6 @@
             <div class="success">
                 <?php
                     if(isset($_REQUEST['success']) == true){
-                        // echo "Thank you for contacting us. We will be in touch with you very soon.";
                         echo '<div class="alert-box alert-box--success hideit">
                                 <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
                                 <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
@@ -173,7 +171,6 @@
                                     <h1>
                                         We Connect Brands to
                                         <span class="highlight color1"> People </span>
-                                        <!-- <br> Summo Brandcom. -->
                                     </h1>
                                 </div>
                                 <!-- end home-content__main -->
@@ -182,24 +179,6 @@
                         </div>
                     </div>
                 </li>
-                <!-- <li data-bg="images/banner/image-2.jpg">
-                    <div class="shadow">
-                        <div class="s-home target-section">
-                            <div class="shadow-overlay"></div>
-                            <div class="home-content">
-                                <div class="row home-content__main">
-                                    <h1>
-                                        Slide 2 Title
-                                    </h1>
-
-                                    <p>
-                                        Slide 2 Description
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li> -->
                 <li data-bg="images/banner/image-4.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
@@ -215,24 +194,6 @@
                         </div>
                     </div>
                 </li>
-                <!-- <li data-bg="images/banner/image-4.jpg">
-                    <div class="shadow">
-                        <div class="s-home target-section">
-                            <div class="shadow-overlay"></div>
-                            <div class="home-content">
-                                <div class="row home-content__main">
-                                    <h1>
-                                        Slide 4 Title
-                                    </h1>
-
-                                    <p>
-                                        Slide 4 Description
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li> -->
                 <li data-bg="images/banner/image-5.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
@@ -294,18 +255,6 @@
                     <span class="home-social-text">Facebook</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="#0">
-                    <i class="fab fa-twitter"></i>
-                    <span class="home-social-text">Twitter</span>
-                </a>
-            </li>
-            <li>
-                <a href="#0">
-                    <i class="fab fa-linkedin"></i>
-                    <span class="home-social-text">LinkedIn</span>
-                </a>
-            </li> -->
         </ul>
         <!-- end home-social -->
         <!-- <div class="slider-progress">
@@ -319,7 +268,6 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Who We Are</h3>
-                <!-- <h1 class="display-1">We are a group ...</h1> -->
             </div>
         </div>
         <!-- end section-header -->
@@ -358,55 +306,6 @@
             </div>
         </div>
         <!-- end about-desc -->
-
-        <!-- <div class="row">
-                
-            <div class="about-process process block-1-2 block-tab-full">
-
-                <div class="process__vline-left"></div>
-                <div class="process__vline-right"></div>
-
-                <div class="col-block process__col" data-item="1" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Define</h4>
-
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="2" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Design</h4>
-
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="3" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Build</h4>
-
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="4" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Launch</h4>
-
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        </p>
-                    </div>
-                </div>
-
-            </div>  end process -->
-
-        <!-- </div> end about-stats -->
-
     </section>
     <!-- end s-about -->
 
@@ -418,7 +317,6 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">What We Do</h3>
-                <!-- <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1> -->
             </div>
         </div>
         <!-- end section-header -->
@@ -433,21 +331,6 @@
         <!-- end about-desc -->
 
         <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-
-            <!-- <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon">
-                    <!-<i class="icon-tv"></i> 
-                    <img src="images/services/Media_Management.png" alt="Media Management">
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Media Management</h3>
-                    <p>When it comes to gaining exposure, it's the right kind of exposure that matters. At Summo Brandcom, we
-                        ensure that your campaigns reach out to the right target audiences, through the right mediums. Be
-                        it television, radio, print, outdoor or digital, we formulate the most effective media mixes and
-                        we manage and monitor them as well.
-                    </p>
-                </div>
-            </div> -->
 
             <div class="col-block service-item backclr1" data-aos="fade-up">
                 <div class="service-icon">
@@ -621,25 +504,6 @@
                                 <img src="images/clients/ourwork/DSC03816_2.jpg" alt="">
                             </a>
                         </div>
-
-                        <!-- <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 2
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 2
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 2
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 2 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span> -->
-
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -653,25 +517,6 @@
                                 <img src="images/clients/ourwork/eBiotech_1.jpg" alt="">
                             </a>
                         </div>
-
-                        <!-- <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 3
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 3
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 3
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 3 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span> -->
-
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -685,25 +530,6 @@
                                 <img src="images/clients/ourwork/IMG_9285.JPG" alt="">
                             </a>
                         </div>
-
-                        <!-- <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 4
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 4
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 4
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 4 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span> -->
-
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -719,24 +545,6 @@
                                 <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" alt="">
                             </a>
                         </div>
-
-                        <!-- <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 6
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 6
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 6
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 6 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span> -->
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -750,24 +558,6 @@
                                 <img src="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" alt="">
                             </a>
                         </div>
-
-                        <!-- <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Title 6
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sub Title 6
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project 6
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Desc 6 Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde
-                                dolorem corrupti neque nisi.</p>
-                        </span> -->
                     </div>
                     <!-- end item-folio -->
                 </div>
@@ -777,55 +567,6 @@
             <!-- end masonry -->
         </div>
         <!-- end masonry-wrap -->
-
-        <!-- <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="h1">What Clients Are Saying.</h2>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-                        <div class="testimonials__author">
-                            Tim Cook
-                            <span>CEO, Apple</span>
-                        </div>
-                    </div> <! end testimonials__slide 
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                        <div class="testimonials__author">
-                            Sundar Pichai
-                            <span>CEO, Google</span>
-                        </div>
-                    </div> <!- end testimonials__slide 
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                        <div class="testimonials__author">
-                            Satya Nadella
-                            <span>CEO, Microsoft</span>
-                        </div>
-                    </div> <-- end testimonials__slide 
-                    
-                </div> <!- end testimonials__slider 
-
-            </div> <!- end testimonials 
-
-        </div> end testimonials-wrap -->
-
     </section>
     <!-- end s-works -->
 
@@ -850,33 +591,6 @@
 
     </section>
     <!-- end clients -->
-
-    <!-- stats
-    ================================================== -->
-    <!-- <section id="stats" class="s-stats">
-
-        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
-            <div class="col-block stats__col ">
-                <div class="stats__count">129</div>
-                <h5>Awards Received</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">1507</div>
-                <h5>Cups of Coffee</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">108</div>
-                <h5>Projects Completed</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">103</div>
-                <h5>Happy Clients</h5> 
-            </div>
-
-        </div> end stats 
-
-    </section> end s-stats -->
 
 
     <!-- contact
@@ -918,8 +632,10 @@
 
                 <p class="contact-address">
                     <span class="bname">Summo Brandcom</span>
-                    <br> No.5, A2, Shah & Nahar Industrial Estate,
-                    <br> Lower Parel, Mumbai – 400 013.
+                    <br>37/A, S. G. Barve Marg,
+                    <br>Near Kamgar Nagar Municipal school,
+                    <br>Kamgar Nagar, Kurla East,
+                    <br>Mumbai - 400 024.
                 </p>
 
                 <!--The div element for the map -->
@@ -944,11 +660,6 @@
                 </ul> <!-- end contact-social -->
 
                 <div class="contact-subscribe" id="contactus">
-                    <!-- <form id="mc-form" class="group mc-form" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form> -->
                     <div class="bg-contact2">
                         <div class="container-contact2">
                             <div class="wrap-contact2">

@@ -34,7 +34,8 @@
 	display: block;
 	padding: 20px;
 	text-align: left;
-	background-color: rgba(0, 0, 0, 0.5);
+	/* background-color: rgba(0, 0, 0, 0.3); */
+	background-color: rgba(255, 255, 255, 0.7);
 	border-top: 1px solid rgba(255, 255, 255, 0.05);
 	position: relative;
 }
@@ -293,6 +294,10 @@ p.lead {
 
 #firstHeading {
 	font-size: 20px;
+}
+
+#map {
+	margin-top: 20px;
 }
 
 /* Contact Form */
