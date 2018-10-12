@@ -612,8 +612,8 @@
                 <p>
                     <a href="mailto:enquiry@summobrand.com" class="contact-email">enquiry@summobrand.com</a>
                     <span class="contact-number">
-                        <span class="subhead subhead--light">Tel:</span>
-                        <a href="tel:02266627445" class="contact-cust"> 022 - 6662 7445</a>
+                        <!-- <span class="subhead subhead--light">Tel:</span>
+                        <a href="tel:02266627445" class="contact-cust"> 022 - 6662 7445</a> -->
                         <br>
                         <span class="subhead subhead--light"> Mob: </span>
                         <a href="tel:+917045263131" class="contact-cust">+91 70452 63131</a>
