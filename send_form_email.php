@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "karthik.poojary@crestit.in";
+    $email_to = "enquiry@summobrand.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
@@ -83,11 +83,11 @@ echo "<script>$('#thankyouModal').modal('show')</script>";
  header("location:/?success=true");
 // $success = "Just a test";
 ?>
- 
-<!-- include your own success html here -->
- 
 
- 
+<!-- include your own success html here -->
+
+
+
 <?php
 }
 ?>
