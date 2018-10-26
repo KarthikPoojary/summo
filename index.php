@@ -167,7 +167,7 @@
                             <div class="home-content">
 
 
-                                <div class="row home-content__main">
+                                <div class="home-content__main">
                                     <h1>
                                         We Connect Brands to
                                         <span class="highlight color1"> People </span>
@@ -184,7 +184,7 @@
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
                             <div class="home-content">
-                                <div class="row home-content__main">
+                                <div class="home-content__main">
                                     <h1>
                                         Smarter
                                         <span class="highlight color3"> Campaigns </span>
@@ -199,7 +199,7 @@
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
                             <div class="home-content">
-                                <div class="row home-content__main">
+                                <div class="home-content__main">
                                     <h1>
                                         Bigger. Bolder.
                                         <span class="highlight color2"> Beyond Reach </span>
@@ -218,7 +218,7 @@
             </a>
         </div>
 
-        <ul class="home-sidelinks">
+        <!-- <ul class="home-sidelinks">
             <li>
                 <a class="smoothscroll" href="#about">About
                     <span>who we are</span>
@@ -244,7 +244,7 @@
                     <span>get in touch</span>
                 </a>
             </li>
-        </ul>
+        </ul> -->
         <!-- end home-sidelinks -->
 
         <ul class="home-social">
