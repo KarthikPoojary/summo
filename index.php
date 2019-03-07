@@ -75,8 +75,13 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo js-tilt">
+            <!-- <a class="site-logo js-tilt">
                 <img class="logo" data-tilt src="images/logo/summo_logo_new.svg" alt="Homepage">
+                <img class="logo" data-tilt src="images/logo/Summo Brand Logo New.png" alt="Homepage">
+            </a> -->
+            <a class="site-logo">
+                <!-- <img class="logo" data-tilt src="images/logo/summo_logo_new.svg" alt="Homepage"> -->
+                <img class="logo" src="images/logo/Summo Brand Logo New.svg" alt="Homepage">
             </a>
         </div>
         <!-- end header-logo -->
@@ -632,10 +637,13 @@
 
                 <p class="contact-address">
                     <span class="bname">Summo Brandcom</span>
-                    <br>37/A, S. G. Barve Marg,
+                    <br>No.5, A-2,
+                    <br>Shah & Nahar Industrial Estate,
+                    <br>Lower Parel, Mumbai - 400 013.
+                    <!-- <br>37/A, S. G. Barve Marg,
                     <br>Near Kamgar Nagar Municipal school,
                     <br>Kamgar Nagar, Kurla East,
-                    <br>Mumbai - 400 024.
+                    <br>Mumbai - 400 024. -->
                 </p>
 
                 <!--The div element for the map -->

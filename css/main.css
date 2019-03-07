@@ -1437,10 +1437,15 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 
-/*.header-logo img {
-  width: 200px;
-  height: 38px;
-}*/
+.header-logo img {
+  /* width: 200px;
+  height: 38px; */
+  margin-top: 80px;
+  width: 700px;
+  height: 200px;
+  /* max-height: 500px; */
+}
+
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
@@ -1725,6 +1730,7 @@ input::-moz-focus-inner {
   .header-menu-toggle {
     right: 60px;
   }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -1751,6 +1757,12 @@ input::-moz-focus-inner {
     width: 180px;
     height: 34px;
   }*/
+  .header-logo img {
+    /* width: 141px;
+    height: 27px; */
+    margin-top: 120px;
+  }
+
   .header-menu-toggle {
     right: 25px;
     top: 30px;
@@ -1772,9 +1784,10 @@ input::-moz-focus-inner {
     left: 25px;
   }
 
-  .header-logo img img {
-    width: 141px;
-    height: 27px;
+  .header-logo img {
+    /* width: 141px;
+    height: 27px; */
+    margin-top: 2000px;
   }
 
   .header-menu-toggle {
