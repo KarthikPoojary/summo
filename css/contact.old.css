@@ -1,19 +1,20 @@
+
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
 }
 
 
@@ -23,32 +24,31 @@
 [ RESTYLE TAG ]*/
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
-  font-family: Poppins-Regular, sans-serif;
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Poppins-Regular;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #a39393;
-  margin: 0px;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-  outline: none !important;
+	outline: none !important;
 }
 
 /*a:hover {
@@ -57,34 +57,28 @@ a:focus {
 }*/
 
 /*---------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
 }
 
 p {
-  font-family: Poppins-Regular;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
 }
 
-ul,
-li {
-  margin: 0px;
-  list-style-type: none;
+ul, li {
+	margin: 0px;
+	list-style-type: none;
 }
 
 
 /*---------------------------------------------*/
 input {
-  outline: none;
-  border: none;
+	outline: none;
+	border: none;
 }
 
 textarea {
@@ -92,88 +86,43 @@ textarea {
   border: none;
 }
 
-textarea:focus,
-input:focus {
+textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
 
-input:focus:-moz-placeholder {
-  color: transparent;
-}
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
 
-input:focus::-moz-placeholder {
-  color: transparent;
-}
+input::-webkit-input-placeholder { color: #999999; }
+input:-moz-placeholder { color: #999999; }
+input::-moz-placeholder { color: #999999; }
+input:-ms-input-placeholder { color: #999999; }
 
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-input::-webkit-input-placeholder {
-  color: #999999;
-}
-
-input:-moz-placeholder {
-  color: #999999;
-}
-
-input::-moz-placeholder {
-  color: #999999;
-}
-
-input:-ms-input-placeholder {
-  color: #999999;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #999999;
-}
-
-textarea:-moz-placeholder {
-  color: #999999;
-}
-
-textarea::-moz-placeholder {
-  color: #999999;
-}
-
-textarea:-ms-input-placeholder {
-  color: #999999;
-}
+textarea::-webkit-input-placeholder { color: #999999; }
+textarea:-moz-placeholder { color: #999999; }
+textarea::-moz-placeholder { color: #999999; }
+textarea:-ms-input-placeholder { color: #999999; }
 
 /*---------------------------------------------*/
 button {
-  outline: none !important;
-  border: none;
-  background: transparent;
+	outline: none !important;
+	border: none;
+	background: transparent;
 }
 
 button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 iframe {
-  border: none !important;
+	border: none !important;
 }
 
 
@@ -183,7 +132,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Contact 2 ]*/
 .bg-contact2 {
-  width: 100%;
+  width: 100%;  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -280,11 +229,11 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: rgba(219, 21, 99, 1);
-  background: -webkit-linear-gradient(45deg, #ed4a37, #e53935);
-  background: -o-linear-gradient(45deg, #ed4a37, #e53935);
-  background: -moz-linear-gradient(45deg, #ed4a37, #e53935);
-  background: linear-gradient(45deg, #ed4a37, #e53935);
+  background: rgba(219,21,99,1);
+  background: -webkit-linear-gradient(45deg, #d5007d, #e53935);
+  background: -o-linear-gradient(45deg, #d5007d, #e53935);
+  background: -moz-linear-gradient(45deg, #d5007d, #e53935);
+  background: linear-gradient(45deg, #d5007d, #e53935);
 }
 
 
@@ -299,7 +248,7 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 14px;
   font-weight: 900;
-  color: #ed4a37;
+  color: #aa2872;
   margin-left: 10px;
   line-height: 0;
 
@@ -314,7 +263,7 @@ input.input2 {
   height: 45px;
 }
 
-input.input2+.focus-input2::after {
+input.input2 + .focus-input2::after {
   top: 16px;
   left: 0;
 }
@@ -325,24 +274,24 @@ textarea.input2 {
   padding-bottom: 13px;
 }
 
-textarea.input2+.focus-input2::after {
+textarea.input2 + .focus-input2::after {
   top: 16px;
   left: 0;
 }
 
-.input2:focus+.focus-input2::after {
+.input2:focus + .focus-input2::after {
   top: -13px;
 }
 
-.input2:focus+.focus-input2::before {
+.input2:focus + .focus-input2::before {
   width: 100%;
 }
 
-.has-val.input2+.focus-input2::after {
+.has-val.input2 + .focus-input2::after {
   top: -13px;
 }
 
-.has-val.input2+.focus-input2::before {
+.has-val.input2 + .focus-input2::before {
   width: 100%;
 }
 
@@ -375,14 +324,14 @@ textarea.input2+.focus-input2::after {
   width: 300%;
   height: 100%;
   background: #aa2771;
-  /*background: -webkit-linear-gradient(-135deg, #ed4a37, #e53935, #ed4a37, #e53935);
-  background: -o-linear-gradient(-135deg, #ed4a37, #e53935, #ed4a37, #e53935);
-  background: -moz-linear-gradient(-135deg, #ed4a37, #e53935, #ed4a37, #e53935);
-  background: linear-gradient(-135deg, #ed4a37, #e53935, #ed4a37, #e53935);*/
+  /*background: -webkit-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -o-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -moz-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);*/
   top: 0;
   left: -100%;
 
-  /*
+/*
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -397,12 +346,11 @@ textarea.input2+.focus-input2::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ed4a37;
   padding: 0 20px;
   min-width: 244px;
   height: 50px;
 
-
+ 
 
   font-family: Poppins-Medium;
   font-size: 16px;
@@ -445,7 +393,7 @@ textarea.input2+.focus-input2::after {
   position: absolute;
   max-width: 70%;
   background-color: white;
-  border: 1px solid #ed4a37;
+  border: 1px solid #c80000;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
   top: 30%;
@@ -458,7 +406,7 @@ textarea.input2+.focus-input2::after {
   pointer-events: none;
 
   font-family: Poppins-Regular;
-  color: #ed4a37;
+  color: #c80000;
   font-size: 18px;
   line-height: 1.4;
   text-align: left;
@@ -481,7 +429,7 @@ textarea.input2+.focus-input2::after {
   border-radius: 50%;*/
   display: block;
   position: absolute;
-  color: #ed4a37;
+  color: #c80000;
   font-size: 16px;
   top: 30%;
   -webkit-transform: translateY(-70%);

@@ -175,7 +175,7 @@
                                 <div class="home-content__main">
                                     <h1>
                                         We Connect Brands to
-                                        <span class="highlight color1"> People </span>
+                                        <span class="highlight contentcolor"> People </span>
                                     </h1>
                                 </div>
                                 <!-- end home-content__main -->
@@ -192,7 +192,7 @@
                                 <div class="home-content__main">
                                     <h1>
                                         Smarter
-                                        <span class="highlight color3"> Campaigns </span>
+                                        <span class="highlight contentcolor"> Campaigns </span>
                                     </h1>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                 <div class="home-content__main">
                                     <h1>
                                         Bigger. Bolder.
-                                        <span class="highlight color2"> Beyond Reach </span>
+                                        <span class="highlight contentcolor"> Beyond Reach </span>
                                     </h1>
                                 </div>
                             </div>
