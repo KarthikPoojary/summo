@@ -61,9 +61,9 @@
 
     <style>
         #map {
-        height: 250px;  
-        width: 100%;  
-       }
+            height: 250px;
+            width: 100%;
+        }
     </style>
 
 </head>
@@ -94,7 +94,7 @@
             </a>
 
             <div class="header-nav__content">
-                <h3>Summo Brandcom</h3>
+                <h3>Summo Brandcoms</h3>
 
                 <ul class="header-nav__list">
                     <li class="current">
@@ -165,26 +165,7 @@
                 ?>
             </div>
             <ul>
-                <li data-bg="images/banner/image-2.jpg">
-                    <div class="shadow">
-                        <div class="s-home target-section">
-                            <div class="shadow-overlay"></div>
-                            <div class="home-content">
-
-
-                                <div class="home-content__main">
-                                    <h1>
-                                        We Connect Brands to
-                                        <span class="highlight contentcolor"> People </span>
-                                    </h1>
-                                </div>
-                                <!-- end home-content__main -->
-
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li data-bg="images/banner/image-4.jpg">
+                <li data-bg="images/banner/1.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -194,12 +175,29 @@
                                         Smarter
                                         <span class="highlight contentcolor"> Campaigns </span>
                                     </h1>
+                                    <h3>Greater Reach. Richer Insights. Effective Campaigns = Smarter Impact.</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li data-bg="images/banner/image-5.jpg">
+                <li data-bg="images/banner/2.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="home-content__main">
+                                    <h1>
+                                        A box to think
+                                        <span class="highlight contentcolor"> outside of </span>
+                                    </h1>
+                                    <h3>Your Go-To Media Business for Scale, Impact And Effectiveness</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-bg="images/banner/3.jpg">
                     <div class="shadow">
                         <div class="s-home target-section">
                             <div class="shadow-overlay"></div>
@@ -209,6 +207,25 @@
                                         Bigger. Bolder.
                                         <span class="highlight contentcolor"> Beyond Reach </span>
                                     </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-bg="images/banner/4.jpg">
+                    <div class="shadow">
+                        <div class="s-home target-section">
+                            <div class="shadow-overlay"></div>
+                            <div class="home-content">
+                                <div class="home-content__main">
+                                    <h1>
+                                        We are the
+                                        <span class="highlight contentcolor"> entertainment </span>
+                                    </h1>
+                                    <h3>
+                                        Not an Interruption, Not a Detraction <br>
+                                        A Medium Where Brands ARE The Entertainment.
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -471,7 +488,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" data-size="1050x700">
+                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link"
+                                data-size="1050x700">
                                 <!-- <img src="images/clients/ourwork/" 
                                      srcset="http://via.placeholder.com/100x100 1x, images/clients/ourwork/ 2x" alt=""> -->
                                 <img src="images/clients/ourwork/Bandrabranch_GSB.jpg" alt="">
@@ -559,7 +577,8 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link" data-size="1050x700">
+                            <a href="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" class="thumb-link"
+                                data-size="1050x700">
                                 <img src="images/clients/ourwork/Solo-Ad-Bihar-Jharkhand.jpg" alt="">
                             </a>
                         </div>
@@ -678,7 +697,8 @@
                                         <span class="focus-input2" data-placeholder="NAME"></span>
                                     </div>
 
-                                    <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                                    <div class="wrap-input2 validate-input"
+                                        data-validate="Valid email is required: ex@abc.xyz">
                                         <input class="input2" type="text" name="email">
                                         <span class="focus-input2" data-placeholder="EMAIL"></span>
                                     </div>
@@ -805,8 +825,8 @@
     </script>
 
     <!-- Background Slideshow -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="js/jquery.slide.js"></script>
     <script type="text/javascript">
@@ -884,7 +904,8 @@
             });
         }
     </script> -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU0yOwlD3RY3nZHk0k7y9he8724JDWfk&callback=initMap">
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU0yOwlD3RY3nZHk0k7y9he8724JDWfk&callback=initMap">
     </script>
 
 </body>
