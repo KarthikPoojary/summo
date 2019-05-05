@@ -402,7 +402,7 @@ li {
 
 ol,
 ul {
-  margin-left: 1.7rem;
+  /* margin-left: 1.7rem; */
 }
 
 ul li {
@@ -2308,8 +2308,8 @@ html.no-csstransitions .home-content__main {
 
   .home-content__main {
     width: auto;
-    padding-left: 35px;
-    padding-right: 35px;
+    /* padding-left: 35px;
+    padding-right: 35px; */
   }
 
   .home-social {

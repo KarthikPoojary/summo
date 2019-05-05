@@ -484,6 +484,21 @@
         <div class="row masonry-wrap">
             <div class="masonry">
 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/clients/ourwork/Mangaluru Airport Exit_45X25_Close View.jpeg"
+                                class="thumb-link" data-size="1050x700">
+                                <img src="images/clients/ourwork/Mangaluru Airport Exit_45X25_Close View.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end item-folio -->
+                </div>
+                <!-- end masonry__brick -->
+
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
 
@@ -573,7 +588,7 @@
                 </div>
                 <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up">
+                <!-- <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
@@ -583,8 +598,8 @@
                             </a>
                         </div>
                     </div>
-                    <!-- end item-folio -->
-                </div>
+                    end item-folio
+                </div> -->
                 <!-- end masonry__brick -->
 
             </div>
@@ -605,6 +620,7 @@
                     <div> <img src="images/clients/clients_logo/chilly_willy.jpg" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Ebaotech_Logo.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Goldenbansi_logo_3.png" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/Bharat Bank_Logo.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Lokmat_Logo.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Solosoftdrinks-Logo.jpg" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Sunday_Mobility_Logo.png" alt=""> </div>
