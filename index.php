@@ -94,7 +94,7 @@
             </a>
 
             <div class="header-nav__content">
-                <h3>Summo Brandcoms</h3>
+                <h3>Summo Brandcom</h3>
 
                 <ul class="header-nav__list">
                     <li class="current">
@@ -156,12 +156,12 @@
         <div id="home" class="slide">
             <div class="success">
                 <?php
-                    if(isset($_REQUEST['success']) == true){
-                        echo '<div class="alert-box alert-box--success hideit">
+                if (isset($_REQUEST['success']) == true) {
+                    echo '<div class="alert-box alert-box--success hideit">
                                 <p>Thank you for contacting us.</p> <br> <p>We will be in touch with you very soon..</p>
                                 <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
                             </div>';
-                    }
+                }
                 ?>
             </div>
             <ul>
@@ -489,8 +489,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Mangaluru Airport Exit_45X25_Close View.jpeg"
-                                class="thumb-link" data-size="1050x700">
+                            <a href="images/clients/ourwork/Mangaluru Airport Exit_45X25_Close View.jpeg" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/Mangaluru Airport Exit_45X25_Close View.jpeg" alt="">
                             </a>
                         </div>
@@ -503,8 +502,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/Bandrabranch_GSB.jpg" class="thumb-link" data-size="1050x700">
                                 <!-- <img src="images/clients/ourwork/" 
                                      srcset="http://via.placeholder.com/100x100 1x, images/clients/ourwork/ 2x" alt=""> -->
                                 <img src="images/clients/ourwork/Bandrabranch_GSB.jpg" alt="">
@@ -578,8 +576,7 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" class="thumb-link"
-                                data-size="1050x700">
+                            <a href="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" class="thumb-link" data-size="1050x700">
                                 <img src="images/clients/ourwork/Lokmat_Dipotsavcampaign_Busshelter.png" alt="">
                             </a>
                         </div>
@@ -622,7 +619,7 @@
                     <div> <img src="images/clients/clients_logo/Goldenbansi_logo_3.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Bharat Bank_Logo.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Lokmat_Logo.png" alt=""> </div>
-                    <div> <img src="images/clients/clients_logo/Solosoftdrinks-Logo.jpg" alt=""> </div>
+                    <div> <img src="images/clients/clients_logo/MTR_Logo.jpg" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Sunday_Mobility_Logo.png" alt=""> </div>
                     <div> <img src="images/clients/clients_logo/Volvo_Car_Logo.jpg" alt=""> </div>
                 </div>
@@ -713,8 +710,7 @@
                                         <span class="focus-input2" data-placeholder="NAME"></span>
                                     </div>
 
-                                    <div class="wrap-input2 validate-input"
-                                        data-validate="Valid email is required: ex@abc.xyz">
+                                    <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                                         <input class="input2" type="text" name="email">
                                         <span class="focus-input2" data-placeholder="EMAIL"></span>
                                     </div>
@@ -841,12 +837,11 @@
     </script>
 
     <!-- Background Slideshow -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="js/jquery.slide.js"></script>
     <script type="text/javascript">
-        $(function () {
+        $(function() {
             $('.slide').slide({
                 'isAutoSlide': true,
                 'slideSpeed': 5000,
@@ -862,7 +857,7 @@
     <!-- Owl Carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".owl-carousel").owlCarousel({
                 loop: true,
                 margin: 10,
@@ -892,8 +887,8 @@
             var clean_uri = uri.substring(0, uri.indexOf("?"));
             window.history.replaceState({}, document.title, clean_uri);
         }
-        window.setTimeout(function () {
-            $(".alert-box").fadeTo(500, 0).slideUp(500, function () {
+        window.setTimeout(function() {
+            $(".alert-box").fadeTo(500, 0).slideUp(500, function() {
                 $(this).remove();
             });
         }, 4000);
@@ -920,8 +915,7 @@
             });
         }
     </script> -->
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU0yOwlD3RY3nZHk0k7y9he8724JDWfk&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU0yOwlD3RY3nZHk0k7y9he8724JDWfk&callback=initMap">
     </script>
 
 </body>
